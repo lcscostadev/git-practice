@@ -15,5 +15,5 @@ ls -al .git - lists everything that is inside .git file
 touch filename.txt - creates a file that we can modify later
 vim filename.txt - vim is a customizable text editor that runs in shell that give us permission to modify the file
 cat .git/HEAD - catches everything that is inside git/HEAD file
-
-
+git rm --cached <FileName> removes unstaged file that was going to be commited
+git add *.md - adds all .md files
