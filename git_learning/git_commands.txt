@@ -17,3 +17,4 @@ vim filename.txt - vim is a customizable text editor that runs in shell that giv
 cat .git/HEAD - catches everything that is inside git/HEAD file
 git rm --cached <FileName> removes unstaged file that was going to be commited
 git add *.md - adds all .md files
+git ls-tree HEAD~1 - all the files in this 1 commit ago
