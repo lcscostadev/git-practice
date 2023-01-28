@@ -1,0 +1,25 @@
+Basic commit commands:
+git init
+git add .
+git commit -m "first commit"
+git push -u origin
+
+Basic Git commands
+mkdir - create a new directory
+cd - go to some directory
+git status - show us the status of our repo, files to commit, change or add
+git log - show us the author, time, and hash of the commit
+pwd - see where we are in the repo
+ls - list everything inside the repo
+ls -al .git - lists everything that is inside .git file
+touch filename.txt - creates a file that we can modify later
+vim filename.txt - vim is a customizable text editor that runs in shell that give us permission to modify the file
+cat .git/HEAD - catches everything that is inside git/HEAD file
+<<<<<<< HEAD
+git rm --cached <FileName> removes unstaged file that was going to be commited
+git add *.md - adds all .md files
+git ls-tree HEAD~1 - all the files in this 1 commit ago
+=======
+
+
+>>>>>>> parent of 520c746 (recovered some commands)
